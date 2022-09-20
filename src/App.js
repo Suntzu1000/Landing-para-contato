@@ -7,6 +7,7 @@ import NewProject from './components/pages/NewProject';
 import SobreMim from './components/pages/SobreMim';
 import Footer from './components/layout/Footer';
 import Projects from './components/pages/Projects';
+import Tech from './components/pages/Tech';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/sobremim' element={<SobreMim/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/newproject' element={<NewProject/>}/>
+      <Route path='/tecnologias' element={<Tech/>}/>
        
     </Routes>
     </Container>
