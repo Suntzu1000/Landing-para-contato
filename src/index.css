@@ -6,9 +6,12 @@
 }
 
 html, body, #root{
+  box-sizing: content-box;
   background-color: #222;
   color: #76C2AF;
   height: 100%;
+  overflow-x: hidden;
+
 }
 
 /*#FFFFFF*/

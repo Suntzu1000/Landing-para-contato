@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    font-size: 1.5em;
     justify-content: space-between;
     background-color: #FFFFFF;
     padding: 1em;
@@ -21,5 +22,88 @@
 }
 .item a:hover {
     color: #222;
+}
+
+
+
+
+
+@media( max-width: 1090px){
+    .navbar{
+        font-size: 1.5em;
+        display: flex;
+    }
+   .img{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: .5em;
+    }
+
+    .list{
+        margin: 0em 0em 0em 0em;
+    }
+}
+
+@media( max-width: 768px){
+    .navbar{
+        font-size: 1.15em;
+    }
+}
+
+@media (max-width: 425px){
+    .list{
+        display: none;
+    }
+
+    .img{
+        width: 200px;
+        text-align: center;
+        margin: 0em 0em 0em 5em;
+
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .menu_toggle{
+        width: 40px;
+        height: 30px;
+        margin: 0em 0em 0em 22em;
+    }
+
+    .menu_section.on{       
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: pink;
+
+        z-index: 10;
+    }
+
+    .menu_section.on .list{
+        display: block;
+    }
+
+    .menu_section.on .menu_toggle{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+}
+
+@media(min-width: 1357px){
+    .list{
+        font-size: 1.4em;
+    }
 }
 

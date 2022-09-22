@@ -9,3 +9,38 @@
     background-color: #76C2AF;
     color: #ffff;
  }
+
+ @media (max-width: 1090px){
+   .btn{
+      font-size: 1.4em;
+      margin: 0em 5em 0em 0em;
+      padding: 1em 3em 1em 3em;
+   }
+ }
+
+
+
+ @media(max-width: 768px ){
+   .btn{
+      font-size: .9em;
+      margin: 0em 30em 0em 0em;
+      padding: 0em -2em 0em 0em;
+   }
+
+  
+ }
+  @media(max-width: 425px){
+   .btn{
+      font-size: .9em;
+      margin: 1em 56em 1em 0em;
+      padding: 0em -2em 0em 0em;
+   }
+  }
+
+  @media(min-width: 1357px){
+   .btn{
+      font-size: 3em;
+      margin: 1em 5em 1em 4em;
+      padding: 0em -2em 0em 0em;
+   }
+  }

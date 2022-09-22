@@ -18,10 +18,110 @@
     background-color: #76C2AF;
 }
 .home_container p{
-    margin-bottom: 1.5em;
+    font-size: 2em;
+    margin-bottom: 1em;
     color: #7b7b7b;
 }
 .home_container img{
-    width: 350px;
-    margin: 2em 0;
+    width: 400px;
+    margin: 2em 0em 0em 0em;
+}
+@media (max-width: 1090px){
+    .home_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+        
+    }
+
+    .home_container h1{
+        font-size: 3em;
+        margin:0em 6em 0em 1em;
+    }
+
+    .home_container p{
+        width: 115%;
+        font-size: 2em;
+        line-height: 1.5em;
+        margin: 1em 7em 0em 0em;
+        /* margin-bottom: 5em; */
+        padding: 0em 7em 2em 9em;
+        color: #7b7b7b;
+    }
+
+    .home_container img{
+        width: 400px;
+        margin: 3em 8em 0em 0em;
+    }
+}
+
+@media(max-width: 785px ){
+    .home_container h1{
+        font-size: 2.5em;
+        margin: 0em 11em 1em 1em;
+    }
+
+    .home_container p{
+        width: 115%;
+        font-size: 1.20em;
+        line-height: 1.5em;
+        margin: 1em 15em 2em 10em;
+        /* margin-bottom: 5em; */
+        padding: 0em 30em 0em 9em;
+        color: #7b7b7b;
+    }
+
+    .home_container img{
+        width: 350px;
+        margin: 2em 30em 0em 0em;
+    }
+}
+
+@media( max-width: 425px){
+    .home_container h1{
+        font-size: 1.5em;
+        margin: -1em 30em 0em -3em;
+    }
+
+    .home_container p{
+        width: 115%;
+        font-size: 1.18em;
+        line-height: 1.5em;
+        margin: 1em 23em 0em 11em;
+        /* margin-bottom: 5em; */
+        padding: 0em 38em 0em 10em;
+        color: #7b7b7b;
+    }
+
+    .home_container img{
+        width: 320px;
+        margin: 0em 50em 0em 0em;
+    }
+}
+
+@media (min-width: 1357px){
+    .home_container h1{
+        font-size: 5em;
+        margin: 0em 0em 2em -2em;
+        padding: 0em 0em 0em 0em;
+    }
+
+    .home_container p{
+        width: 100%;
+        font-size: 3.18em;
+        line-height: 1.5em;
+        margin: -2em 27em 1em 26em;
+        /* margin-bottom: 5em; */
+        color: #7b7b7b;
+        padding: 0em 46em 0em -1em;
+    }
+
+    .home_container img{
+        width: 600px;
+        margin: 0em 2em 0em 0em;
+    }
+
 }
