@@ -102,6 +102,26 @@
     }
 }
 
+@media( max-width: 500px){
+    .home_container h1{
+        font-size: 1.9em;
+        margin: 0px 23em 1em -1em
+    }
+    .home_container p{
+    color: #7b7b7b;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 1em 15em 2em 10em;
+    padding: 0 38em 0 6em;
+    width: 113%;
+}
+
+.home_container img{
+    width: 350px;
+    margin: 2em 45em 0em 0em;
+}
+}
+
 @media (min-width: 1357px){
     .home_container h1{
         font-size: 5em;

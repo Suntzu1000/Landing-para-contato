@@ -29,6 +29,14 @@
 
   
  }
+
+ @media(max-width: 500px){
+   .btn{
+      font-size: .9em;
+      margin: 1em 50em 1em 0em;
+      padding: 0em -2em 0em 0em;
+   }
+  }
   @media(max-width: 425px){
    .btn{
       font-size: .9em;
@@ -36,6 +44,10 @@
       padding: 0em -2em 0em 0em;
    }
   }
+
+  
+
+
 
   @media(min-width: 1357px){
    .btn{

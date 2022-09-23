@@ -6,7 +6,7 @@
 }
 
 html, body, #root{
-  box-sizing: content-box;
+  /*box-sizing: content-box;*/
   background-color: #222;
   color: #76C2AF;
   height: 100%;

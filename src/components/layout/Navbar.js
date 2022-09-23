@@ -3,15 +3,15 @@ import Container from './Container';
 import styles from './Navbar.module.css';
 import logo0 from '../../img/logo02.png'
 
+
 function Navbar() {
     return(<>
-        <div className='styles.menu_section on'>
+         <div className='menu_section on'>
           <div className={styles.menu_toggle}>
             <div className={styles.one}></div>
             <div className={styles.two}></div>
             <div className={styles.three}></div>
-            </div>  
-        
+            </div>        
         <nav className={styles.navbar}>
            <Container>
             <Link to='/'>
@@ -41,7 +41,7 @@ function Navbar() {
             </ul>
            </Container>
         </nav>
-        </div>
+       </div>
         </>
     )
 }
