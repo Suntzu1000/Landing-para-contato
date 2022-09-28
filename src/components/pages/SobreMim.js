@@ -1,9 +1,17 @@
 import styles from './Home.module.css'
+import {useState} from 'react'
 
+import Loading from '../layout/Loading'
 
 function SobreMim(){
+    const [removeLoading, setRemoveLoading] = useState(false)
+
+    setTimeout(() => {
+        setRemoveLoading(true)
+    }, 1000)
+
     return (<>
-        
+        {!removeLoading && <Loading/>}
         <div className={styles.home_container}>
         <h1 >Sobre Mim</h1>
         <p >Me chamo Gabriel tenho 18 anos,
