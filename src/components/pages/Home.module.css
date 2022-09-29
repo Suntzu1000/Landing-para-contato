@@ -26,6 +26,12 @@
     width: 400px;
     margin: 2em 0em 0em 0em;
 }
+
+
+.div strong{
+    flex-direction: column;
+}
+
 @media (max-width: 1090px){
     .home_container{
     width: 100%;
