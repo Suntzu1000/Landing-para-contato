@@ -9,6 +9,7 @@ import Footer from './components/layout/Footer';
 import Projects from './components/pages/Projects';
 import Tech from './components/pages/Tech';
 
+
 function App() {
   return (
    <Router>
@@ -21,7 +22,6 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/newproject' element={<NewProject/>}/>
       <Route path='/tecnologias' element={<Tech/>}/>
-       
     </Routes>
     </Container>
     <Footer />

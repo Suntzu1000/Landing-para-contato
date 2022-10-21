@@ -1,16 +1,18 @@
 import styles from './Home.module.css'
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 import Loading from '../layout/Loading'
 
 function SobreMim(){
     const [removeLoading, setRemoveLoading] = useState(false)
-
+    useEffect(() =>{
+ 
+    },[])
     setTimeout(() => {
         setRemoveLoading(true)
     }, 1000)
 
-    return (<>
+   return (<>
         {!removeLoading && <Loading/>}
         <div className={styles.home_container}>
         <h1 >Sobre Mim</h1>
@@ -20,8 +22,8 @@ function SobreMim(){
          movido á desafios. 
          Hoje já entendo tecnologias como NodeJS, Bootstrap, ReactJS etc.</p>
         </div>
-        </>
-    )
+        </> )
+   
 
 }
 
